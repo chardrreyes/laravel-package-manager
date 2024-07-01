@@ -44,13 +44,16 @@ Required
 - [PostgreSQL](https://www.postgresql.org/download/windows/)
 - [Latest PHP](https://www.php.net/)
 
-1. **Install composer and run this commands**
+1. **Install composer and update .env file database part**
+
+2. **Run this commands**
 ```bash
 php artisan key:generate
 php artisan migrate
 php artisan serve
 ```
-2. Testing
+
+3. **Testing**
 ```bash
 php artisan test
 ```
