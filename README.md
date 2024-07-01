@@ -33,3 +33,16 @@ docker-compose exec app php artisan key:generate
 ```bash
 docker-compose exec app php artisan migrate
 ```
+
+## Alternative
+Required
+- [Composer](https://getcomposer.org/download/)
+- [PostgreSQL](https://www.postgresql.org/download/windows/)
+- [Latest PHP](https://www.php.net/)
+
+1. **Install composer and run this commands**
+```bash
+php artisan key:generate
+php artisan migrate
+php artisan serve
+```
