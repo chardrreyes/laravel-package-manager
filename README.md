@@ -33,6 +33,10 @@ docker-compose exec app php artisan key:generate
 ```bash
 docker-compose exec app php artisan migrate
 ```
+## Running Test
+```bash
+docker-compose exec app php artisan test
+```
 
 ## Alternative
 Required
@@ -46,3 +50,10 @@ php artisan key:generate
 php artisan migrate
 php artisan serve
 ```
+2. Testing
+```bash
+php artisan test
+```
+
+
+
