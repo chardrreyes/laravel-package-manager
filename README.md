@@ -58,5 +58,9 @@ php artisan serve
 php artisan test
 ```
 
+## Sample
+See /sample folder for screenshots
+- add_product - view when adding an item
+- result_product - view of the results
 
 
